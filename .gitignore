@@ -33,6 +33,7 @@ env/
 *.swo
 *~
 .DS_Store
+.history/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -46,6 +47,11 @@ env/
 *.dat
 *.log
 *.sqlite
+*.db
+
+# Audio files and database
+songs/
+fingerprints.db
 
 # Model files (if large)
 *.h5
